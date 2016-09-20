@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-        "allowJs": false,
-        "forceConsistentCasingInFileNames": true,
-        "listFiles": true,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "pretty": true,
-        "strictNullChecks": true,
-        "target": "ES6"
-    },
-    "exclude": [
-        "node_modules",
-        "typings/globals"
-    ]
+  "compilerOptions": {
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "listFiles": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "target": "ES6"
+  },
+  "exclude": [
+    "node_modules",
+    "typings/globals"
+  ]
 }

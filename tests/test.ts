@@ -1,16 +1,26 @@
 import {expect} from 'chai';
 import * as mocha from 'mocha';
 
-import * as test from '../src/index';
-
 describe('Stickler Migrate', () => {
-    it('should do stuff');
+    describe('Databases', () => {
+        it('should have a name');
 
-    it('should say hello', () => {
-        expect(test.sayHello('friend')).to.equal('hello friend');
+        it('should be able to add tables');
     });
 
-    it('should not say goodbye', () => {
-        expect(test.sayHello('friend')).to.not.equal('goodbye friend');
+    describe('Tables', () => {
+        it('should have a name');
+
+        it('should be able to add columns');
+    });
+
+    describe('Columns', () => {
+        it('should have a name');
+
+        it('should allow boolean types');
+
+        it('should allow string types');
+
+        it('should allow integer types');
     });
 });

@@ -4,9 +4,9 @@ import {Database} from '../src/Database';
 
 describe('Stickler Migrate', () => {
     describe('Databases', () => {
-        it('should have a name', function() {
-        	var name = "testDB";
-        	var db = new Database(name);
+        it('should have a name', () => {
+        	let name = 'testDB';
+        	let db = new Database(name);
         	expect(db.getName()).to.equal(name);
         });
 

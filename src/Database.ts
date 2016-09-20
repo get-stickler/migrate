@@ -11,4 +11,8 @@ export class Database {
     public addTable(table: Table) {
         this.tables.push(table);
     }
+
+    public getName() {
+    	return this.name;
+    }
 }

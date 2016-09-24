@@ -6,9 +6,18 @@ export class Database {
 
     constructor(name: string) {
         this.name = name;
+        this.tables = [];
     }
 
     public addTable(table: Table) {
         this.tables.push(table);
+    }
+
+    public getName() {
+    	return this.name;
+    }
+
+    public getLatestAddedColumn() {
+    	return this.tables[0];
     }
 }

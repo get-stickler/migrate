@@ -1,6 +1,3 @@
-import {expect} from 'chai';
-import * as mocha from 'mocha';
-
 describe('Stickler Migrate', () => {
     describe('Databases', () => {
         it('should have a name');

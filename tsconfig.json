@@ -3,6 +3,7 @@
     "allowJs": false,
     "forceConsistentCasingInFileNames": true,
     "listFiles": true,
+    "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
